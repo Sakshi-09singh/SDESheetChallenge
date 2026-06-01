@@ -1,3 +1,4 @@
+package Day1;
 
 class Solution {
     public void nextPermutation(int[] nums) {

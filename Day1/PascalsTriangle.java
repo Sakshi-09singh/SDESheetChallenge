@@ -1,3 +1,4 @@
+package Day1;
 import java.util.*;
 class PascalsTriangle  {
     public List<List<Integer>> generate(int numRows) {
