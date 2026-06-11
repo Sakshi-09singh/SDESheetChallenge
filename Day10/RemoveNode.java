@@ -1,7 +1,5 @@
 package Day10;
 
-import java.lang.classfile.components.ClassPrinter.ListNode;
-
 public class RemoveNode {
     public class ListNode {
       int val;
@@ -11,7 +9,7 @@ public class RemoveNode {
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
-    
+
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode fast = head;
         ListNode slow = head;
